@@ -15,8 +15,8 @@ const About = () => {
             I moved to Hong Kong for my senior elementary to University
             education. I am currently pursuing my BBA in Finance and
             Entrepreneurship, Design, and Innovation (EDI) at the University of
-            Hong Kong. I am fluent in four languages: English, Hindi, Mandarin,
-            and Cantonese.
+            Hong Kong. I am fluent in four languages: English, Hindi, Cantonese,
+            and Mandarin.
           </p>
           <p className="py-2 text-gray-600">
             I am passionate about technology and the ways it can be used to
