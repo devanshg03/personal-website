@@ -1,24 +1,24 @@
 import Image from "next/image";
 import React from "react";
-import caesdImg from "../public/assets/projects/caesd.png";
+import xtrailImg from "../public/assets/projects/xtrail.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
-const vcmemo = () => {
+const xtrail = () => {
   return (
     <div className="w-full">
       <div className="relative w-screen h-[30vh] lg:h-[40vh]">
         <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10" />
         <Image
           className="absolute z-1"
-          src={caesdImg}
+          src={xtrailImg}
           alt="/"
           fill
           style={{ objectFit: "cover" }}
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2 ">CAESD</h2>
-          <h3>Design / Ecommerce</h3>
+          <h2 className="py-2 ">@Nissan X-Trail Official</h2>
+          <h3>Social Media Page</h3>
         </div>
       </div>
 
@@ -27,14 +27,14 @@ const vcmemo = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This is a my first startup, an e-commerce store that allows people
-            to have customized phone cases. I designed and sources phone cases
-            on demand for customers, and achieved a revenue of 4 digits in 6
-            months. Ultimately I realized this was not something I would like to
-            pursue as it did not have a technological or much of a competitive
-            advantage over other phone cases.
+            I started an Instagram page to connect with owners of Nissan X-Trail
+            and share people's unique cars from all over the world, with
+            different modifications and acessories. Eventually, I stopped
+            posting on this page due to a lack of time, but it has still gained
+            over 1,100 followers. This was just a project I started to get
+            involved in the car enthusiast community.
           </p>
-          <a href="https://web.archive.org/web/20220821071107/https://www.caesdhk.com/">
+          <a href="https://www.instagram.com/nissanxtrailofficial/">
             <button className="px-8 py-2 mt-4 mr-8 hover:scale-105">
               Website
             </button>
@@ -46,11 +46,11 @@ const vcmemo = () => {
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                Shopify
+                Content Sourcing
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                Affinity Suite
+                Photography
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
@@ -58,15 +58,15 @@ const vcmemo = () => {
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                Product Sourcing
+                Community Building
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                Instagram Ads
+                Graphic Design
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                Customer research
+                Customer Research
               </p>
             </div>
           </div>
@@ -79,4 +79,4 @@ const vcmemo = () => {
   );
 };
 
-export default vcmemo;
+export default xtrail;
