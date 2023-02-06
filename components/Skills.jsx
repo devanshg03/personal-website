@@ -13,7 +13,7 @@ const Skills = () => {
   return (
     <div id="skills" className="w-ful lg:h-screen p-2">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
-        <p className="text-xl tracking-widest uppercase text-[#5299D3]">
+        <p className="text-xl tracking-widest uppercase text-[#2E77B2]">
           Skills
         </p>
         <h2 className="py-4">What I Can Do</h2>

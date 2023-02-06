@@ -11,7 +11,7 @@ const Main = () => {
             Let's build something together
           </p>
           <h1 className="py-4 text-gray-700" class="type">
-            Hi, I'm <span className="text-[#5299D3]">Devansh</span>
+            Hi, I'm <span className="text-[#2E77B2]">Devansh</span>
           </h1>
           <h1 className="py-2 text-gray-700">I'm a Venture Builder</h1>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
@@ -21,22 +21,22 @@ const Main = () => {
           <div className=" flex items-center justify-between max-w-[330px] m-auto py-4">
             <a href="https://www.linkedin.com/in/gdevansh/">
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                <FaLinkedinIn />
+                <FaLinkedinIn className="text-[#2E77B2]" />
               </div>
             </a>
             <a href="https://www.instagram.com/itzdgofficial/">
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                <FaInstagram />
+                <FaInstagram className="text-[#2E77B2]" />
               </div>
             </a>
             <a href="mailto::devanshgandhi03@gmail.com">
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                <AiOutlineMail />
+                <AiOutlineMail className="text-[#2E77B2]" />
               </div>
             </a>
             <a href="https://github.com/devanshg03">
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                <FaGithub />
+                <FaGithub className="text-[#2E77B2]" />
               </div>
             </a>
           </div>
