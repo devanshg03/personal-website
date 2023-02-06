@@ -32,7 +32,11 @@ const About = () => {
           </Link>
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
-          <img src="assets/about.jpg" alt="" className="rounded-xl" />
+          <img
+            src="assets/about.jpg"
+            alt="image of a laptop with the lid open"
+            className="rounded-xl"
+          />
         </div>
       </div>
     </div>

@@ -23,7 +23,7 @@ const Projectdesc = ({
         <Image
           className="absolute z-1"
           src={backgroundImg}
-          alt="/"
+          alt={title}
           fill
           style={{ objectFit: "cover" }}
         />
