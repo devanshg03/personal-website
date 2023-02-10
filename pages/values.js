@@ -165,9 +165,9 @@ const values = () => {
           </p>
 
           <p className="py-2 text-gray-600">
-            Overall, my values are spread unevenly in the stages of
-            Psychological Development for the Barret Values Center Assessment,
-            as the section on conformity is empty, and most of my values
+            Overall, my values are spread unevenly in the Stages of
+            Psychological Development of the Barret Values Center Assessment, as
+            the section on conformity is empty, and most of my values
             concentrate on individuating and self-actualizing. According to
             Schwartz’s Value Circumplex, my values tend to relate closely to
             self-enhancement and openness to change rather than
