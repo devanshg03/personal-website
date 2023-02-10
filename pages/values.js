@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-const iimt3626 = () => {
+const values = () => {
   return (
     <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
       <div className="mt-20 max-w-[960px] m-auto md:grid grid-cols-1 gap-8">
@@ -251,4 +251,4 @@ const iimt3626 = () => {
   );
 };
 
-export default iimt3626;
+export default values;
