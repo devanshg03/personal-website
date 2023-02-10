@@ -248,7 +248,7 @@ const values = () => {
             </cite>
           </p>
 
-          <p className="text-gray-600 mb-20 py-2">
+          <p className="text-gray-600 py-2">
             The Balance. (2021, February 27). What Are Your Core Values?
             <cite className="pl-2">
               <a
@@ -259,6 +259,18 @@ const values = () => {
               </a>
             </cite>
           </p>
+        </div>
+        <div className="w-full h-auto m-auto md:grid grid-cols-2">
+          <img
+            src="assets/creative.jpg"
+            alt="image of a laptop with the lid open"
+            className="py-2 px-2 rounded-xl"
+          />
+          <img
+            src="assets/vision.jpg"
+            alt="image of a laptop with the lid open"
+            className="py-2 px-2 rounded-xl mb-20"
+          />
         </div>
       </div>
     </div>
